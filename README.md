@@ -26,7 +26,7 @@ MinHeap<int>* m_heap = new MinHeap<int>(x);
 
 ```
 
-**Insertion**
+**Insertion**  
 Assuming, we have some heap object, **m_heap**, allocated to the heap, we can perform insertion as follows:
 
 ```c++
@@ -34,7 +34,7 @@ int y = 1;
 m_heap->Insert(y)
 ```
 
-**Deletion**
+**Deletion**  
 Likewise, given some heap object, **m_heap**, we can extract the minimum or maximum key (relative to the heap type; min or max) such as:
 
 ```c++
